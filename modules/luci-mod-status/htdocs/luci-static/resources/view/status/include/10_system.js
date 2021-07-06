@@ -63,7 +63,7 @@ return baseclass.extend({
 				systeminfo.load[1] / 65535.0,
 				systeminfo.load[2] / 65535.0
 			) : null,
-			_('Shell终端'),       '<a href="/console" target="_blank" rel="noopener noreferrer">打开</a>'
+			_('Shell终端'),       '打开网页根路径下的/console即可进入Web终端'
 		];
 
 		var table = E('div', { 'class': 'table' });
